@@ -1,9 +1,7 @@
 /*el fucshia pasa a ser rgb(173, 100, 173) */
 
 /* Estilos generales */
-@media screen and (max-width: 800px) {
-    .content { width: 100%;}
-}
+@media screen and (min-wind: 841px) and (max-width: 800px) and (orientation: landscape)
     
 
 body {
@@ -17,7 +15,7 @@ html {
 
 /* Estilos para el contenedor del navbar */
 .nav {
-    background-color: #dddddd;
+    background-color:#fff;
     color: #333;
     display: flex;
     justify-content: space-between;
@@ -144,9 +142,10 @@ html {
 /*1RA quienes somos*/
 /**somos ada**/
 .img1 {
-    height: 35rem;
+    display: block;
     object-fit: cover;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .container-quienes {
