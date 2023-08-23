@@ -1,6 +1,11 @@
 /*el fucshia pasa a ser rgb(173, 100, 173) */
 
 /* Estilos generales */
+@media screen and (max-width: 800px) {
+    .content { width: 100%;}
+}
+    
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
